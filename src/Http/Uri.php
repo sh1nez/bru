@@ -104,7 +104,7 @@ final class Uri implements UriInterface
 		return $this->scheme;
 	}
 
-	public function getAuthority()
+	public function getAuthority(): string
 	{
 		if (($authority = $this->host) === '') {
 			return '';
@@ -140,7 +140,7 @@ final class Uri implements UriInterface
 	/**
 	 * @return int|null
 	 */
-	public function getPort()
+	public function getPort(): ?int
 	{
 		return $this->port;
 	}

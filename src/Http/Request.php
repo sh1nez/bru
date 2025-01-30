@@ -90,7 +90,7 @@ final class Request implements RequestInterface
 	 * @param mixed $requestTarget
 	 * @return $this|Request
 	 */
-	public function withRequestTarget($requestTarget)
+    public function withRequestTarget(string $requestTarget): RequestInterface
 	{
 		if ($requestTarget === $this->requestTarget) {
 			return $this;

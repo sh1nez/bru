@@ -85,7 +85,7 @@ final class Stream implements StreamInterface
 		return isset($stats['size']) ? (int) $stats['size'] : null;
 	}
 
-	public function tell()
+	public function tell(): int
 	{
 		if (!$this->resource) {
 			throw new RuntimeException('Нет ресурса для указания текущей позиции');
@@ -160,7 +160,7 @@ final class Stream implements StreamInterface
 	 * @param string $string
 	 * @return false|int
 	 */
-	public function write($string)
+	public function write($string): int
 	{
 		if (!$this->resource) {
 			throw new RuntimeException('Нет ресурса для записи');
@@ -193,7 +193,7 @@ final class Stream implements StreamInterface
 	 * @param int $length
 	 * @return false|string
 	 */
-	public function read($length)
+	public function read($length): string
 	{
 		if (!$this->resource) {
 			throw new RuntimeException('Нет ресурса для чтения');
@@ -213,7 +213,7 @@ final class Stream implements StreamInterface
 	/**
 	 * @return false|string
 	 */
-	public function getContents()
+	public function getContents(): String
 	{
 		if (!$this->isReadable()) {
 			throw new RuntimeException('Невозможно прочитать данные из потока');

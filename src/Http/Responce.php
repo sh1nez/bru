@@ -88,7 +88,7 @@ final class Responce implements ResponseInterface
 	/**
 	 * @return int|null
 	 */
-	public function getStatusCode()
+	public function getStatusCode(): int
 	{
 		return $this->statusCode;
 	}
