@@ -1,10 +1,9 @@
 {
-  "name": "sh1nez/business-online-sdk-php",
+  "name": "sh1nez/bru",
   "description": "SDK для работы с API Бизнес.Ру",
-  "version": "1.4.14",
   "type": "library",
   "homepage": "https://online.business.ru/",
-  "license": "proprietary",
+  "license": "No",
     "authors": [
     {
       "name": "Aivan",
