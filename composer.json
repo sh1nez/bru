@@ -1,10 +1,9 @@
 {
-  "name": "sh1nez/business-online-sdk-php",
+  "name": "sh1nez/bru",
   "description": "SDK для работы с API Бизнес.Ру",
-  "version": "1.4.14",
   "type": "library",
   "homepage": "https://online.business.ru/",
-  "license": "proprietary",
+  "license": "No",
     "authors": [
     {
       "name": "Aivan",
@@ -12,12 +11,12 @@
     }
   ],
   "require": {
-    "php": ">=7.3",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "psr/log": "^1.1",
-    "psr/simple-cache": "^1.0",
-    "psr/http-client": "^1.0"
+	"php":">=8.0",
+    "ext-curl":"*",
+    "ext-json":"*",
+    "psr/log":"^2.0 || ^3.0",
+    "psr/simple-cache":"^3.0.0",
+    "psr/http-client":"^1.0.3"
   },
   "autoload": {
     "psr-4": {
