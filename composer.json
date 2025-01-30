@@ -1,18 +1,14 @@
 {
-  "name": "business-ru/business-online-sdk-php",
+  "name": "sh1nez/business-online-sdk-php",
   "description": "SDK для работы с API Бизнес.Ру",
   "version": "1.4.14",
   "type": "library",
   "homepage": "https://online.business.ru/",
   "license": "proprietary",
-  "support": {
-    "docs": "https://support.business.ru/",
-    "forum": "https://support.business.ru/communities/3-obnovleniya-biznesru"
-  },
-  "authors": [
+    "authors": [
     {
-      "name": "Business.ru",
-      "email": "email@example.com"
+      "name": "Aivan",
+      "email": "i.v.butorov@gmail.com"
     }
   ],
   "require": {
